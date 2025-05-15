@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1e1e1e);
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #121212;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #035863;
+      box-shadow: 0 0 10px #035863;
+    }
+    nav a {
+      color: #035863;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #035863;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .contact-info {
+      background-color: #1c1c1c;
+      padding: 30px;
+      border-radius: 10px;
+      border: 2px solid #035863;
+      box-shadow: 0 0 10px #035863;
+    }
+    .contact-item {
+      margin-bottom: 20px;
+    }
+    .contact-item label {
+      font-size: 16px;
+      font-weight: bold;
+      color:#035863;
+    }
+    .contact-item p, .contact-item a {
+      font-size: 15px;
+      color: #ccc;
+      margin: 5px 0 0;
+      text-decoration: none;
+    }
+    .contact-item a:hover {
+      color: #035863;
+    }
+    .background {
+      background-image: url('background-tech.jpg');
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <h2>Adam Tech Service</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="projects.html">Layanan</a>
+      <a href="skills.html">Keahlian</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Hubungi Saya</h1>
+    <div class="contact-info">
+      <div class="contact-item">
+        <label>📞 WhatsApp:</label>
+        <p><a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a></p>
+      </div>
+      <div class="contact-item">
+        <label>📧 Email:</label>
+        <p><a href="mailto:adamtechservice@gmail.com">adamtechservice@gmail.com</a></p>
+      </div>
+      <div class="contact-item">
+        <label>📍 Alamat Bengkel:</label>
+        <p>Jl. Teknisi No.123, Kota Servis, Indonesia</p>
+      </div>
+      <div class="contact-item">
+        <label>🌐 Instagram:</label>
+        <p><a href="https://instagram.com/adamtech.id" target="_blank">@adamtech.id</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

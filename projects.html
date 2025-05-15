@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layanan Servis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1e1e1e);
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #121212;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #0358635;
+      box-shadow: 0 0 10px #035863;
+    }
+    nav a {
+      color: #035863;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #035863;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .card {
+      background-color: #1c1c1c;
+      border: 2px solid #035863;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px #035863;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      color: #035863;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .background {
+      background-image: url('background-tech.jpg');
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <h2>Adam Tech Service</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="projects.html">Layanan</a>
+      <a href="skills.html">Keahlian</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Layanan Servis Laptop</h1>
+    <div class="services">
+      <div class="card">
+        <img src="install.jpg" alt="Instal Ulang">
+        <h3>Instal Ulang Windows</h3>
+        <p>Instalasi sistem operasi baru, lengkap dengan driver dan software dasar.</p>
+      </div>
+      <div class="card">
+        <img src="cleaning.jpg" alt="Pembersihan Kipas">
+        <h3>Pembersihan Kipas & Thermal Paste</h3>
+        <p>Membersihkan debu dan mengganti pasta termal untuk mencegah panas berlebih.</p>
+      </div>
+      <div class="card">
+        <img src="keyboard.jpg" alt="Penggantian Keyboard">
+        <h3>Penggantian Keyboard</h3>
+        <p>Mengganti keyboard yang rusak atau tidak responsif dengan yang baru.</p>
+      </div>
+      <div class="card">
+        <img src="upgrade.jpg" alt="Upgrade RAM SSD">
+        <h3>Upgrade RAM/SSD</h3>
+        <p>Upgrade perangkat untuk meningkatkan performa laptop Anda.</p>
+      </div>
+      <div class="card">
+        <img src="virus.jpg" alt="Virus Removal">
+        <h3>Pembersihan Virus</h3>
+        <p>Membersihkan laptop dari virus dan malware serta pengamanan sistem.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

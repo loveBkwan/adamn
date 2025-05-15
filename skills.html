@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keahlian</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1e1e1e);
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #121212;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #035863;
+      box-shadow: 0 0 10px #035863;
+    }
+    nav a {
+      color: #035863;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #035863;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .skill-box {
+      background-color: #1c1c1c;
+      border: 2px solid #035863;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #035863;
+      transition: transform 0.3s ease;
+    }
+    .skill-box:hover {
+      transform: translateY(-5px);
+    }
+    .skill-title {
+      font-size: 18px;
+      color: #035863;
+      margin-bottom: 10px;
+    }
+    .skill-desc {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .background {
+      background-image: url('background-tech.jpg');
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <h2>Adam Tech Service</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="projects.html">Layanan</a>
+      <a href="skills.html">Keahlian</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Keahlian Saya</h1>
+    <div class="skills">
+      <div class="skill-box">
+        <div class="skill-title">Diagnosis Kerusakan</div>
+        <div class="skill-desc">Mengidentifikasi masalah perangkat keras dan perangkat lunak secara cepat dan akurat.</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">Servis Hardware</div>
+        <div class="skill-desc">Perbaikan dan penggantian komponen seperti motherboard, layar, kipas, dan lainnya.</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">Instalasi Sistem Operasi</div>
+        <div class="skill-desc">Instal ulang Windows/Linux, konfigurasi driver, dan instalasi software penting.</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">Upgrade Komponen</div>
+        <div class="skill-desc">Upgrade RAM, SSD/HDD, dan peningkatan performa laptop dengan efisiensi tinggi.</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-title">Troubleshooting Software</div>
+        <div class="skill-desc">Mengatasi error, crash, blue screen, virus, serta optimasi kinerja sistem.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

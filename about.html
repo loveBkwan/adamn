@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tentang Adam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1e1e1e);
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #121212;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid#035863;
+      box-shadow: 0 0 10px#035863;
+    }
+    nav a {
+      color: #035863;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #035863;
+    }
+    h1 {
+      color:#035863;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 10px;
+      border: 2px solid #035863;
+      box-shadow: 0 0 10px #035863;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .background {
+      background-image: url('background-tech.jpg');
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <h2>Adam Tech Service</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="projects.html">Layanan</a>
+      <a href="skills.html">Keahlian</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Tentang Saya</h1>
+    <p>Halo, saya <strong>Adam Pratama</strong>, seorang teknisi laptop dengan pengalaman lebih dari 3 tahun di bidang perbaikan dan servis perangkat keras maupun perangkat lunak.</p>
+    <p>Saya memiliki keahlian dalam diagnosis kerusakan, penggantian komponen, instalasi sistem operasi, serta optimalisasi kinerja laptop untuk keperluan harian maupun profesional.</p>
+    <p>Dengan pendekatan kerja yang teliti, cepat, dan transparan, saya berkomitmen memberikan pelayanan terbaik untuk setiap klien saya.</p>
+    <p>Saat ini saya juga sedang mengembangkan layanan servis panggilan dan konsultasi online untuk memperluas jangkauan layanan saya.</p>
+
+    <div class="gallery">
+      <img src="laptop1.jpg" alt="Servis Laptop 1">
+      <img src="laptop2.jpg" alt="Servis Laptop 2">
+      <img src="laptop3.jpg" alt="Servis Laptop 3">
+    </div>
+  </div>
+</body>
+</html>
